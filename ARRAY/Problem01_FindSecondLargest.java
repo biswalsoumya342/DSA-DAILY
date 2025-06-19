@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class FindSecondLargest{
+public class Problem01_FindSecondLargest{
     public static int findSecondLargest(int[] arr){
         Arrays.sort(arr);
         for(int i = arr.length-1;i>0;i--){
